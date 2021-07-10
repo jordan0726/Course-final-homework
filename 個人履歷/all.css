@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+    width: 1920px;
+    margin: 0 auto;
+    font-family: 'Noto Serif TC', serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+span{
+    color: #A00404;
+    font-size: 28px;
+    margin-left: 16px;
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(124, 124, 124);
+    padding-bottom: 14px;
+    margin-bottom: 24px;
+}
+h3{
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 2px solid #cfcfcf;
+    padding-bottom: 14px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.profile h1{
+    font-weight: bold;
+    font-size: 80px;
+    font-family: serif;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    line-height: 1.15;
+    margin-top: 40px;
+}
+.profile img{
+    margin: 48px 0px;
+}
+
+.profile p{
+    font-size: 24px;
+    margin-bottom: 24px;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+}
+.profile div{
+    margin-bottom: 6%;
+}
+
+/*技能SKILLS區塊*/
+
+.skill{
+    background-color: #415165;
+    color: white;
+    padding: 24px 0px 36px;
+}
+.container2{
+    width: 996px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+.skill h3{
+    padding-left: 40%;
+    padding-right: 40%;
+}
+.skill ul{
+    margin-right: 30px;
+}
+.skill li{
+    width: 100%;
+    border-left: 4px solid #6e7b8b;
+    padding-left: 10%;
+    font-size: 24px;
+    line-height: 2;
+    font-weight: lighter;
+}
+
+/*工作經驗部分*/
+
+.exp{
+    padding: 80px 0px;
+}
+.exp li{
+    width: 45%;
+    margin-left: 2%;
+    padding-left: 2.5%;
+    border-left: 3px solid #9aa1aa;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding-bottom: 3%;
+}
+.exp img{
+    display: block;
+    margin: 1.5% 0%;
+}
+.exp p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*FOOTER部分*/
+.footer{
+    background-color: #415165;
+    color: white;
+    padding: 24px 0px 36px;
+}
+.footer li{
+    font-size: 21px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+.footer a{
+    color: white;
+}
+.footer i{
+    font-size: 48px;
+    padding-left: 24px;
+}
+.footer a:hover{
+    text-decoration: underline;
+    font-size: 22px;
+}
