@@ -42,133 +42,148 @@ table {
 	border-spacing: 0;
 }
 
-.wrap{
-    width: 1920px;
-    margin: 0 auto;
-    font-family: 'Noto Serif TC', serif;
+/*全域設定*/
+*,*::after,*::before{
+    box-sizing: border-box;
 }
-.container{
-    width: 1200px;
-    margin: 0 auto;
+body{
+    line-height: 1.5;
+    font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
 }
-span{
-    color: #A00404;
-    font-size: 28px;
-    margin-left: 16px;
+img{
+    display: block;
 }
-h2{
-    font-size: 32px;
-    font-weight: bold;
-    border-bottom: 2px solid rgb(124, 124, 124);
-    padding-bottom: 14px;
-    margin-bottom: 24px;
-}
-h3{
-    font-size: 32px;
-    font-weight: bold;
-    border-bottom: 2px solid #cfcfcf;
-    padding-bottom: 14px;
-    margin-bottom: 36px;
-    text-align: center;
+h2,h3{
+    display: inline;
 }
 a{
     text-decoration: none;
 }
-.profile h1{
-    font-weight: bold;
-    font-size: 80px;
-    font-family: serif;
-    border-bottom: 2px solid rgb(0, 0, 0);
-    line-height: 1.15;
-    margin-top: 40px;
+
+/*容器*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
 }
-.profile img{
-    margin: 48px 0px;
+.container2{
+    width: 996px;
+    margin: 0 auto;
 }
 
-.profile p{
-    font-size: 24px;
-    margin-bottom: 24px;
-    letter-spacing: 1.5px;
-    line-height: 1.4;
-}
-.profile div{
-    margin-bottom: 6%;
-}
-
-/*技能SKILLS區塊*/
-
-.skill{
+/*樣式*/
+.full-screen-block{
     background-color: #415165;
     color: white;
     padding: 24px 0px 36px;
 }
-.container2{
-    width: 996px;
+.text-left-border{
+    margin-left: 24px;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4;
+}
+.title{
+    border-bottom: 2px solid rgb(124, 124, 124);
+    padding-bottom: 8px;
+}
+.title2{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 8px;
+    margin-bottom: 37px;
+    text-align: center;
+    width: 100%;
+}
+
+/*通用類別*/
+.df{
     display: flex;
+}
+.fd-c{
     flex-direction: column;
-    margin: 0 auto;
+}
+.ai-c{
     align-items: center;
 }
-.skill h3{
-    padding-left: 40%;
-    padding-right: 40%;
+.jc-c{
+    justify-content: center;
 }
+.mb-1{
+    margin-bottom: 8px;
+}
+.mb-2{
+    margin-bottom: 16px;
+}
+.mb-3{
+    margin-bottom: 24px;
+}
+.mb-4{
+    margin-bottom: 32px;
+}
+.mb-6{
+    margin-bottom: 48px;
+}
+.mb-9{
+    margin-bottom: 72px;
+}
+.ml-2{
+    margin-left: 16px;
+}
+.ml-3{
+    margin-left: 24px;
+}
+.pl-3{
+    padding-left: 24px;
+}
+.c-red{
+    color: #A00404;
+}
+.fs-32{
+    font-size: 32px;
+}
+
+
+
+/*PROFILE區塊*/
+.profile h1{
+    font-size: 80px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    line-height: 1.2;
+    margin-top: 37px;
+}
+/*技能SKILLS區塊*/
+
 .skill ul{
-    margin-right: 30px;
-}
-.skill li{
-    width: 100%;
-    border-left: 4px solid #6e7b8b;
-    padding-left: 10%;
-    font-size: 24px;
+    width: 25%;
     line-height: 2;
-    font-weight: lighter;
+    font-weight: 300;
 }
 
 /*工作經驗部分*/
 
-.exp{
-    padding: 80px 0px;
-}
 .exp li{
-    width: 45%;
-    margin-left: 2%;
-    padding-left: 2.5%;
-    border-left: 3px solid #9aa1aa;
-    font-size: 24px;
-    line-height: 1.2;
-    font-weight: 700;
-    padding-bottom: 3%;
+    width: 55%;
+    margin-bottom: 24px;
 }
-.exp img{
-    display: block;
-    margin: 1.5% 0%;
-}
+
 .exp p{
     font-size: 20px;
-    font-weight: 500;
 }
 
 /*FOOTER部分*/
-.footer{
-    background-color: #415165;
-    color: white;
-    padding: 24px 0px 36px;
-}
+
 .footer li{
-    font-size: 21px;
-    margin-bottom: 21px;
+    margin-bottom: 16px;
     text-align: center;
+    font-weight: 300;
 }
 .footer a{
     color: white;
+    cursor: pointer;
 }
-.footer i{
-    font-size: 48px;
+.footer img{
     padding-left: 24px;
 }
 .footer a:hover{
     text-decoration: underline;
-    font-size: 22px;
 }
