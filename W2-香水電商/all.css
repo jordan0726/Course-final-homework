@@ -311,17 +311,18 @@ a{
 
 .subscribe .email-input{
     border: 2px solid #916000;
-    border-radius: 4px;
+    border-radius: 4px 0 0 4px;
     width: 220px;
     height: 60px;
     line-height: 60px;
     padding-left: 16px;
 }
 .subscribe .subscribe-btn{
+    width: 100%;
     height: 60px;
     background-color: #916000;
     border: 2px solid #916000;
-    border-radius: 4px;
+    border-radius: 0 4px 4px 0;
 }
 .subscribe .subscribe-btn:hover{
     background-color: #6C4700;
